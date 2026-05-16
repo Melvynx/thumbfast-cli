@@ -1,0 +1,30 @@
+{
+  "name": "thumbfast-cli",
+  "version": "0.1.0",
+  "description": "CLI for Thumbfa.st - AI thumbnail generation, persons, inspirations, images, and credits",
+  "type": "module",
+  "bin": {
+    "thumbfast-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "bun build src/index.ts --outfile dist/index.js --target bun",
+    "dev": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "commander": "^13.0.0",
+    "picocolors": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melvynx/thumbfast-cli.git"
+  },
+  "homepage": "https://github.com/Melvynx/thumbfast-cli#readme",
+  "bugs": {
+    "url": "https://github.com/Melvynx/thumbfast-cli/issues"
+  }
+}
