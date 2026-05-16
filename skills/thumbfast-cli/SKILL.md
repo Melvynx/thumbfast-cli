@@ -1,10 +1,6 @@
 ---
 name: thumbfast-cli
-description: >-
-  Manage Thumbfa.st via CLI - thumbnail generation, persons, inspirations, images, and credits.
-  Use this skill whenever working with AI thumbnail generation, managing face references, uploading reference images, browsing inspirations, or checking credit usage.
-  Common scenarios: generating thumbnails from prompts, checking generation status, managing person face references, uploading images, listing inspirations, checking credit balance.
-  Prefer this skill whenever the user mentions "Thumbfa.st", "thumbfast", "thumbnail generation", "AI thumbnails", "generate thumbnail", or any thumbnail creation task.
+description: "Manage Thumbfa.st via CLI - thumbnail generation, persons, inspirations, images, and credits. Use when the user mentions Thumbfa.st, thumbfast, thumbnail generation, AI thumbnails, generate thumbnail, face references, reference images, inspirations, or credit usage."
 category: content-creation
 ---
 
